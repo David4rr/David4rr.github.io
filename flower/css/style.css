@@ -83,18 +83,6 @@ body {
 .greetings>span:nth-child(13) {
   animation-delay: 2.4s;
 }
-.greetings>span:nth-child(14) {
-  animation-delay: 2.6s;
-}
-.greetings>span:nth-child(15) {
-  animation-delay: 2.8s;
-}
-.greetings>span:nth-child(16) {
-  animation-delay: 3s;
-}
-.greetings>span:nth-child(17) {
-  animation-delay: 3.2s;
-}
 
 .description {
   font-size: 1.5rem;
