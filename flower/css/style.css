@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap");
 
 * {
-  font-family: 'Poppins', cursive;
+  font-family: "Poppins", cursive;
 }
 
 body {
@@ -20,12 +20,11 @@ body {
   font-weight: 900;
 }
 
-.greetings>span {
+.greetings > span {
   animation: glow 2.5s ease-in-out infinite;
 }
 
 @keyframes glow {
-
   0%,
   100% {
     color: #fff;
@@ -39,49 +38,64 @@ body {
   }
 }
 
-.greetings>span:nth-child(2) {
-  animation-delay: .2s;
+.greetings > span:nth-child(2) {
+  animation-delay: 0.2s;
 }
 
-.greetings>span:nth-child(3) {
-  animation-delay: .4s;
+.greetings > span:nth-child(3) {
+  animation-delay: 0.4s;
 }
 
-.greetings>span:nth-child(4) {
-  animation-delay: .6s;
+.greetings > span:nth-child(4) {
+  animation-delay: 0.6s;
 }
 
-.greetings>span:nth-child(5) {
-  animation-delay: .8s;
+.greetings > span:nth-child(5) {
+  animation-delay: 0.8s;
 }
 
-.greetings>span:nth-child(6) {
+.greetings > span:nth-child(6) {
   animation-delay: 1s;
 }
 
-.greetings>span:nth-child(7) {
+.greetings > span:nth-child(7) {
   animation-delay: 1.2s;
 }
 
-.greetings>span:nth-child(8) {
+.greetings > span:nth-child(8) {
   animation-delay: 1.4s;
 }
 
-.greetings>span:nth-child(9) {
+.greetings > span:nth-child(9) {
   animation-delay: 1.6s;
 }
 
-.greetings>span:nth-child(10) {
+.greetings > span:nth-child(10) {
   animation-delay: 1.8s;
 }
-.greetings>span:nth-child(11) {
+.greetings > span:nth-child(11) {
   animation-delay: 2s;
 }
-.greetings>span:nth-child(12) {
+.greetings > span:nth-child(12) {
   animation-delay: 2.2s;
 }
-.greetings>span:nth-child(13) {
+.greetings > span:nth-child(13) {
   animation-delay: 2.4s;
+}
+.greetings > span:nth-child(14) {
+  animation-delay: 2.6s;
+}
+.greetings > span:nth-child(15) {
+  animation-delay: 2.8s;
+}
+.greetings > span:nth-child(16) {
+  animation-delay: 3s;
+}
+.greetings > span:nth-child(17) {
+  animation-delay: 3.2s;
+}
+.greetings > span:nth-child(18) {
+  animation-delay: 3.4s;
 }
 
 .description {
@@ -95,7 +109,7 @@ body {
   color: #111;
 }
 
-@media screen and (max-width:574px) {
+@media screen and (max-width: 574px) {
   .greetings {
     display: block;
     font-size: 3rem;
@@ -108,6 +122,6 @@ body {
   }
 
   .button a {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 }
