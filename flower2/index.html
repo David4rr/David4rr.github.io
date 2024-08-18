@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   </head>
   <body>
+    <canvas id="cnv"></canvas>
     <svg id="flower" width="600" height="600">
       <style type="text/css">
         circle {
@@ -20,8 +21,9 @@
         }
       </style>
     </svg>
-    <button onclick="generate()">Buat Bunga Baru</button>
+    <button id="btn" onclick="generate()">Buat Bunga Baru</button>
 
+    <script src="stars.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

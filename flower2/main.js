@@ -29,7 +29,6 @@ function generate() {
       circle.setAttribute("cy", y);
       circle.setAttribute("r", r);
       circle.setAttribute("fill", randomColor);
-      console.log(circle);
       svg.appendChild(circle);
     }
   }
