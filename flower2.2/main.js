@@ -60,7 +60,7 @@ function resetStars() {
   ctx.fillRect(0, 0, W, H);
 
   // Restart the star animation
-  starInterval = setInterval(animate, 300);
+  starInterval = setInterval(animate, 800);
 }
 
 // Random color
