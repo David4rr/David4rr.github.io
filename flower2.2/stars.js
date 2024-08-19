@@ -6,7 +6,7 @@ var H = window.innerHeight;
 //Set Canvas and Background Color;
 cnv.width = W;
 cnv.height = H;
-ctx.fillStyle = "#112";
+ctx.fillStyle = "#000";
 ctx.fillRect(0, 0, W, H);
 
 //Glow effect;

@@ -56,8 +56,11 @@ function resetStars() {
 
   // Clear the canvas
   ctx.clearRect(0, 0, W, H);
-  ctx.fillStyle = "#112";
+  ctx.fillStyle = "#000";
   ctx.fillRect(0, 0, W, H);
+
+  ctx.shadowBlur = 10;
+  ctx.shadowColor = "white";
 
   // Restart the star animation
   starInterval = setInterval(animate, 800);
