@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tambahkan ini untuk mengimpor GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  </head>
+  <body>
+    <canvas id="cnv"></canvas>
+    <svg id="flower" width="600" height="600">
+      <style type="text/css">
+        circle {
+          stroke-width: 1px;
+          stroke: #fff;
+          mix-blend-mode: screen;
+          opacity: 0;
+          filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.4));
+        }
+      </style>
+    </svg>
+    <button id="btn" onclick="generate()">Buat Bunga Baru</button>
+
+    <script src="stars.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
