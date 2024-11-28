@@ -35,7 +35,7 @@ canvas {
 }
 h2 {
   position: relative;
-  color: #d91656;
+  color: rgb(255, 0, 127);
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 section {
